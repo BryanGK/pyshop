@@ -3,9 +3,9 @@ from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse('This is the /products')
+    return HttpResponse('This is the /products page')
 
 
-def index_new(request):
+def new(request):
     return HttpResponse('This is the /products/new page')
 
